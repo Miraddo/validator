@@ -1,3 +1,31 @@
+# Validator
+
+## installation
+```bash
+$ go get github.com/Miraddo/validator
+```
+
+## How to use!
+
+```go
+package main 
+
+import(
+    github.com/Miraddo/validator
+)
+
+
+func main(){
+    if validator.IsImageUrl("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"){
+        println("return true")
+    }
+
+    println("return false")
+}
+
+```
+
+```
 IsLowercase
 IsUppercase
 IsNumber
@@ -51,3 +79,5 @@ CheckStatusInternalServerError
 CheckStatusServiceUnavailable
 CheckStatusGatewayTimeout
 CheckStatusHTTPVersionNotSupported
+
+```
