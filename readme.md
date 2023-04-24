@@ -25,6 +25,7 @@ func main(){
 
 ```
 
+### List of Validators
 ```
 IsLowercase
 IsUppercase
